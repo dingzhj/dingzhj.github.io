@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>丁忆的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-01-23T11:21:52.688Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>丁忆</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux常用命令2</title>
+    <link href="http://yoursite.com/2018/01/24/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2018/01/24/linux常用命令/</id>
+    <published>2018-01-24T13:05:00.000Z</published>
+    <updated>2018-01-23T11:21:52.688Z</updated>
+    
+    <content type="html"><![CDATA[<p>查看文件<br>cat view.sh</p><p>查看日志<br>tail -f ../logs/catalina.out -n 100<br>tail -100f ../logs/catalina.out </p><p>清楚屏幕<br>clear</p><p>拷贝目录<br>cp -ri  a文件  b文件</p><p>修改文件<br>vi test.xml</p><p>查看当前目录<br>ls<br>ll</p><p> GRANT ALL PRIVILEGES ON <em>.</em> TO ‘root’@’%’ IDENTIFIED BY ‘gis123456’ WITH GRANT OPTION;<br>FLUSH  PRIVILEGES;</p><p> set password for ‘root’@’47.95.1.172’ = password(‘Gis123456’);</p><p>  exit;</p><p>  GRANT select ON <em>.</em> TO ‘root’@’47.95.1.172’ identified by ‘Gis123456’;</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;查看文件&lt;br&gt;cat view.sh&lt;/p&gt;
+&lt;p&gt;查看日志&lt;br&gt;tail -f ../logs/catalina.out -n 100&lt;br&gt;tail -100f ../logs/catalina.out &lt;/p&gt;
+&lt;p&gt;清楚屏幕&lt;br&gt;clear&lt;/p&gt;
+&lt;p&gt;拷贝
+      
+    
+    </summary>
+    
+    
+      <category term="linux,运维" scheme="http://yoursite.com/tags/linux-%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="http://yoursite.com/2018/01/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2018/01/24/我的第一篇博客/</id>
+    <published>2018-01-24T12:45:00.000Z</published>
+    <updated>2018-01-23T11:14:34.426Z</updated>
+    
+    <content type="html"><![CDATA[<p>查看当前磁盘<br>df  -h</p><p>nohup java -jar   quickserver4.1.jar &amp;</p><p>输入service network restart重启网络服务。</p><p>查看当前目录：<br>pwd<br>查看编码：<br>echo $LANG<br>修改编码：<br>LANG=zh_CN.UTF-8<br>进入目录<br>cd<br>解压文件：<br>tar -zxvf **.tar.gz<br>unzip filename.zip </p><p>查看当前tomcat 进程<br>ps -ef|grep tomcat<br>映射端口<br>iptables -t nat -A PREROUTING -p tcp –dport 80 -j REDIRECT –to-port 8080</p><p>//修改文件夹下的所有目录用户和组权限<br>chown  -R  kssj:kssj logs</p><p>/app/project/apache-tomcat-wx-8080</p><p>cd /app/project/apache-tomcat-wx-8080/bin/<br>启动/停止<br>sh ./startup.sh<br>sh ./shutdown.sh<br>sh ./view.sh</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;查看当前磁盘&lt;br&gt;df  -h&lt;/p&gt;
+&lt;p&gt;nohup java -jar   quickserver4.1.jar &amp;amp;&lt;/p&gt;
+&lt;p&gt;输入service network restart重启网络服务。&lt;/p&gt;
+&lt;p&gt;查看当前目录：&lt;br&gt;pwd&lt;br&gt;查看编码：
+      
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+</feed>
