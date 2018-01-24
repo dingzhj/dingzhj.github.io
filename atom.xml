@@ -72,4 +72,29 @@
     
   </entry>
   
+  <entry>
+    <title>我的随笔</title>
+    <link href="http://yoursite.com/2018/01/25/%E6%88%91%E7%9A%84%E9%9A%8F%E7%AC%94/"/>
+    <id>http://yoursite.com/2018/01/25/我的随笔/</id>
+    <published>2018-01-25T11:10:00.000Z</published>
+    <updated>2018-01-24T09:16:02.759Z</updated>
+    
+    <content type="html"><![CDATA[<p>–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’<br>select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24:mi:ss’);<br>alter table X_PEOPLE_INFO enable row movement;<br>flashback table X_PEOPLE_INFO to timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd HH24:MI:SS’);</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’&lt;br&gt;select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
 </feed>
