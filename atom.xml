@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-24T08:57:37.102Z</updated>
+  <updated>2018-01-25T08:00:33.448Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>linux常用命令2</title>
-    <link href="http://yoursite.com/2018/01/27/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>http://yoursite.com/2018/01/27/linux常用命令/</id>
-    <published>2018-01-26T17:05:00.000Z</published>
-    <updated>2018-01-24T08:57:37.102Z</updated>
+    <title>我的第一篇博客</title>
+    <link href="http://yoursite.com/2018/01/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2018/01/27/我的第一篇博客/</id>
+    <published>2018-01-27T05:45:00.000Z</published>
+    <updated>2018-01-25T08:00:33.448Z</updated>
     
-    <content type="html"><![CDATA[<p>查看文件<br>cat view.sh</p><p>查看日志<br>tail -f ../logs/catalina.out -n 100<br>tail -100f ../logs/catalina.out </p><p>清楚屏幕<br>clear</p><p>拷贝目录<br>cp -ri  a文件  b文件</p><p>修改文件<br>vi test.xml</p><p>查看当前目录<br>ls<br>ll</p><p> GRANT ALL PRIVILEGES ON <em>.</em> TO ‘root’@’%’ IDENTIFIED BY ‘gis123456’ WITH GRANT OPTION;<br>FLUSH  PRIVILEGES;</p><p> set password for ‘root’@’47.95.1.172’ = password(‘Gis123456’);</p><p>  exit;</p><p>  GRANT select ON <em>.</em> TO ‘root’@’47.95.1.172’ identified by ‘Gis123456’;</p>]]></content>
+    <content type="html"><![CDATA[<h5 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h5><hr><blockquote><p>最近闲来无事看网上博客挺多的，就想搭建一个自己的博客来记录自己在开发中遇到的问题并且分享给大家。就用 ==github + hexo== 经过网上查询资料，零基础的就搭建了属于自己的博客。</p><p>博客中有什么问题和不对的地方，可以给留言，小弟及时改正免得误导大家。</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;查看文件&lt;br&gt;cat view.sh&lt;/p&gt;
-&lt;p&gt;查看日志&lt;br&gt;tail -f ../logs/catalina.out -n 100&lt;br&gt;tail -100f ../logs/catalina.out &lt;/p&gt;
-&lt;p&gt;清楚屏幕&lt;br&gt;clear&lt;/p&gt;
-&lt;p&gt;拷贝
+        &lt;h5 id=&quot;我的第一篇博客&quot;&gt;&lt;a href=&quot;#我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博客&quot;&gt;&lt;/a&gt;我的第一篇博客&lt;/h5&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最近闲来无事看网上博客挺多的，就想搭建一个自己的博客来记录自己在
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux常用命令</title>
+    <link href="http://yoursite.com/2018/01/27/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2018/01/27/linux常用命令/</id>
+    <published>2018-01-26T17:05:00.000Z</published>
+    <updated>2018-01-25T07:41:30.966Z</updated>
+    
+    <content type="html"><![CDATA[<h6 id="linux-常用命令"><a href="#linux-常用命令" class="headerlink" title="linux 常用命令"></a>linux 常用命令</h6><hr><p>查看当前磁盘<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df  -h</span><br></pre></td></tr></table></figure></p><p>查看当前目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pwd</span><br></pre></td></tr></table></figure><p>查看编码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo $LANG</span><br></pre></td></tr></table></figure><p>修改编码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">LANG=zh_CN.UTF-8</span><br></pre></td></tr></table></figure><p>解压文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf **.tar.gz </span><br><span class="line">unzip filename.zip</span><br></pre></td></tr></table></figure></p><p>查看当前tomcat 进程</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -ef|grep tomcat</span><br></pre></td></tr></table></figure><p>映射端口<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080</span><br></pre></td></tr></table></figure></p><p>修改文件夹下的所有目录用户和组权限</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown  -R  kssj:kssj logs</span><br></pre></td></tr></table></figure><p>拷贝目录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp -ri  a文件  b文件</span><br></pre></td></tr></table></figure><p>修改文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi test.xml</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h6 id=&quot;linux-常用命令&quot;&gt;&lt;a href=&quot;#linux-常用命令&quot; class=&quot;headerlink&quot; title=&quot;linux 常用命令&quot;&gt;&lt;/a&gt;linux 常用命令&lt;/h6&gt;&lt;hr&gt;
+&lt;p&gt;查看当前磁盘&lt;br&gt;&lt;figure class=&quot;highligh
       
     
     </summary>
@@ -45,47 +70,20 @@
   </entry>
   
   <entry>
-    <title>我的第一篇博客</title>
-    <link href="http://yoursite.com/2018/01/26/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2018/01/26/我的第一篇博客/</id>
-    <published>2018-01-26T03:45:00.000Z</published>
-    <updated>2018-01-24T08:56:01.229Z</updated>
-    
-    <content type="html"><![CDATA[<p>查看当前磁盘<br>df  -h</p><p>nohup java -jar   quickserver4.1.jar &amp;</p><p>输入service network restart重启网络服务。</p><p>查看当前目录：<br>pwd<br>查看编码：<br>echo $LANG<br>修改编码：<br>LANG=zh_CN.UTF-8<br>进入目录<br>cd<br>解压文件：<br>tar -zxvf **.tar.gz<br>unzip filename.zip </p><p>查看当前tomcat 进程<br>ps -ef|grep tomcat<br>映射端口<br>iptables -t nat -A PREROUTING -p tcp –dport 80 -j REDIRECT –to-port 8080</p><p>//修改文件夹下的所有目录用户和组权限<br>chown  -R  kssj:kssj logs</p><p>/app/project/apache-tomcat-wx-8080</p><p>cd /app/project/apache-tomcat-wx-8080/bin/<br>启动/停止<br>sh ./startup.sh<br>sh ./shutdown.sh<br>sh ./view.sh</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;查看当前磁盘&lt;br&gt;df  -h&lt;/p&gt;
-&lt;p&gt;nohup java -jar   quickserver4.1.jar &amp;amp;&lt;/p&gt;
-&lt;p&gt;输入service network restart重启网络服务。&lt;/p&gt;
-&lt;p&gt;查看当前目录：&lt;br&gt;pwd&lt;br&gt;查看编码：
-      
-    
-    </summary>
-    
-      <category term="运维" scheme="http://yoursite.com/categories/%E8%BF%90%E7%BB%B4/"/>
-    
-    
-      <category term="运维" scheme="http://yoursite.com/tags/%E8%BF%90%E7%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我的随笔</title>
     <link href="http://yoursite.com/2018/01/25/%E6%88%91%E7%9A%84%E9%9A%8F%E7%AC%94/"/>
     <id>http://yoursite.com/2018/01/25/我的随笔/</id>
     <published>2018-01-25T11:10:00.000Z</published>
-    <updated>2018-01-24T09:16:02.759Z</updated>
+    <updated>2018-01-25T07:47:11.661Z</updated>
     
-    <content type="html"><![CDATA[<p>–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’<br>select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24:mi:ss’);<br>alter table X_PEOPLE_INFO enable row movement;<br>flashback table X_PEOPLE_INFO to timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd HH24:MI:SS’);</p>]]></content>
+    <content type="html"><![CDATA[<h5 id="oracle-数据回滚"><a href="#oracle-数据回滚" class="headerlink" title="oracle 数据回滚"></a>oracle 数据回滚</h5><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select * from X_PEOPLE_INFO as of timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd hh24:mi:ss&apos;);</span><br><span class="line">alter table X_PEOPLE_INFO enable row movement;</span><br><span class="line">flashback table X_PEOPLE_INFO to timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd HH</span><br></pre></td></tr></table></figure><p>======表结构不变的情况下======</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’&lt;br&gt;select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24
+        &lt;h5 id=&quot;oracle-数据回滚&quot;&gt;&lt;a href=&quot;#oracle-数据回滚&quot; class=&quot;headerlink&quot; title=&quot;oracle 数据回滚&quot;&gt;&lt;/a&gt;oracle 数据回滚&lt;/h5&gt;&lt;hr&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;
       
     
     </summary>

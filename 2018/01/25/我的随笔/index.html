@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24:mi:ss’);alter table X_PEOPLE_INFO enable row movement;flashback ta">
+<meta name="description" content="oracle 数据回滚 123select * from X_PEOPLE_INFO as of timestamp to_timestamp(&amp;apos;2017-09-30 11:00:00&amp;apos;,&amp;apos;yyyy-mm-dd hh24:mi:ss&amp;apos;);alter table X_PEOPLE_INFO enable row movement;flashback table">
 <meta name="keywords" content="随笔">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的随笔">
 <meta property="og:url" content="http://yoursite.com/2018/01/25/我的随笔/index.html">
 <meta property="og:site_name" content="丁忆的博客">
-<meta property="og:description" content="–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24:mi:ss’);alter table X_PEOPLE_INFO enable row movement;flashback ta">
+<meta property="og:description" content="oracle 数据回滚 123select * from X_PEOPLE_INFO as of timestamp to_timestamp(&amp;apos;2017-09-30 11:00:00&amp;apos;,&amp;apos;yyyy-mm-dd hh24:mi:ss&amp;apos;);alter table X_PEOPLE_INFO enable row movement;flashback table">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-24T09:16:02.759Z">
+<meta property="og:updated_time" content="2018-01-25T07:47:11.661Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的随笔">
-<meta name="twitter:description" content="–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24:mi:ss’);alter table X_PEOPLE_INFO enable row movement;flashback ta">
+<meta name="twitter:description" content="oracle 数据回滚 123select * from X_PEOPLE_INFO as of timestamp to_timestamp(&amp;apos;2017-09-30 11:00:00&amp;apos;,&amp;apos;yyyy-mm-dd hh24:mi:ss&amp;apos;);alter table X_PEOPLE_INFO enable row movement;flashback table">
 
 
 
@@ -367,7 +367,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  47
+                  58
                 </span>
               
 
@@ -404,7 +404,9 @@
       
 
       
-        <p>–UPDATE X_PEOPLE_INFO SET IMG_URL = ‘’<br>select * from X_PEOPLE_INFO as of timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd hh24:mi:ss’);<br>alter table X_PEOPLE_INFO enable row movement;<br>flashback table X_PEOPLE_INFO to timestamp to_timestamp(‘2017-09-30 11:00:00’,’yyyy-mm-dd HH24:MI:SS’);</p>
+        <h5 id="oracle-数据回滚"><a href="#oracle-数据回滚" class="headerlink" title="oracle 数据回滚"></a>oracle 数据回滚</h5><hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select * from X_PEOPLE_INFO as of timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd hh24:mi:ss&apos;);</span><br><span class="line">alter table X_PEOPLE_INFO enable row movement;</span><br><span class="line">flashback table X_PEOPLE_INFO to timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd HH</span><br></pre></td></tr></table></figure>
+<p>======表结构不变的情况下======</p>
 
       
     </div>
@@ -470,8 +472,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/01/26/我的第一篇博客/" rel="prev" title="我的第一篇博客">
-                我的第一篇博客 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/01/27/linux常用命令/" rel="prev" title="linux常用命令">
+                linux常用命令 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -555,8 +557,17 @@ var jiathis_config={
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -627,6 +638,22 @@ var jiathis_config={
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#oracle-数据回滚"><span class="nav-number">1.</span> <span class="nav-text">oracle 数据回滚</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
