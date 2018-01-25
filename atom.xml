@@ -74,9 +74,9 @@
     <link href="http://yoursite.com/2018/01/25/%E6%88%91%E7%9A%84%E9%9A%8F%E7%AC%94/"/>
     <id>http://yoursite.com/2018/01/25/我的随笔/</id>
     <published>2018-01-25T11:10:00.000Z</published>
-    <updated>2018-01-25T07:47:11.661Z</updated>
+    <updated>2018-01-25T08:48:55.090Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="oracle-数据回滚"><a href="#oracle-数据回滚" class="headerlink" title="oracle 数据回滚"></a>oracle 数据回滚</h5><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select * from X_PEOPLE_INFO as of timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd hh24:mi:ss&apos;);</span><br><span class="line">alter table X_PEOPLE_INFO enable row movement;</span><br><span class="line">flashback table X_PEOPLE_INFO to timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd HH</span><br></pre></td></tr></table></figure><p>======表结构不变的情况下======</p>]]></content>
+    <content type="html"><![CDATA[<h5 id="oracle-数据回滚"><a href="#oracle-数据回滚" class="headerlink" title="oracle 数据回滚"></a>oracle 数据回滚</h5><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">select * from X_PEOPLE_INFO as of timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd hh24:mi:ss&apos;);</span><br><span class="line">alter table X_PEOPLE_INFO enable row movement;</span><br><span class="line">flashback table X_PEOPLE_INFO to timestamp to_timestamp(&apos;2017-09-30 11:00:00&apos;,&apos;yyyy-mm-dd HH</span><br></pre></td></tr></table></figure><p>======表结构不变的情况下</p>]]></content>
     
     <summary type="html">
     
