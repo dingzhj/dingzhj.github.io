@@ -169,9 +169,9 @@
       <category term="oracle" scheme="http://yoursite.com/categories/oracle/"/>
     
     
-      <category term="oracle" scheme="http://yoursite.com/tags/oracle/"/>
-    
       <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="oracle" scheme="http://yoursite.com/tags/oracle/"/>
     
   </entry>
   
