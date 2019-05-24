@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://dingzhj.com/2019/04/24/SpringBoot%20%E6%95%B4%E5%90%88rabbitmq%E4%BB%A5%E5%8F%8A%E5%BB%B6%E6%97%B6%E9%98%9F%E5%88%97%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/</loc>
+    <loc>http://yoursite.com/2019/04/24/Spring%20boot%E6%95%B4%E5%90%88quartz%20%E6%8C%81%E4%B9%85%E5%8C%96/</loc>
+    <lastmod>2019-05-24</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/04/24/SpringBoot%20%E6%95%B4%E5%90%88rabbitmq%E4%BB%A5%E5%8F%8A%E5%BB%B6%E6%97%B6%E9%98%9F%E5%88%97%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F/</loc>
     <lastmod>2019-04-23</lastmod>
   </url>  <url>
-    <loc>http://dingzhj.com/2018/01/31/Untitled/</loc>
+    <loc>http://yoursite.com/2018/01/31/Untitled/</loc>
     <lastmod>2018-01-30</lastmod>
   </url>  <url>
-    <loc>http://dingzhj.com/2018/01/26/%E6%88%91%E7%9A%84%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://yoursite.com/2018/01/26/%E6%88%91%E7%9A%84%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2018-01-30</lastmod>
   </url>  <url>
-    <loc>http://dingzhj.com/2018/01/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://yoursite.com/2018/01/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-01-30</lastmod>
   </url>  <url>
-    <loc>http://dingzhj.com/2018/01/30/wampserver%E7%AB%AF%E5%8F%A3%E9%85%8D%E7%BD%AE%E5%92%8C%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE/</loc>
+    <loc>http://yoursite.com/2018/01/30/wampserver%E7%AB%AF%E5%8F%A3%E9%85%8D%E7%BD%AE%E5%92%8C%E5%A4%96%E7%BD%91%E8%AE%BF%E9%97%AE/</loc>
     <lastmod>2018-01-29</lastmod>
   </url>  <url>
-    <loc>http://dingzhj.com/2018/01/27/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://yoursite.com/2018/01/27/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2018-01-25</lastmod>
   </url>
 </urlset>
