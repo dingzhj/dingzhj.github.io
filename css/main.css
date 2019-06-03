@@ -1115,6 +1115,7 @@ pre .javascript .function {
   color: #fff;
   background: #222;
   border-bottom: none;
+  color: #9400d3 !important;
 }
 .brand:hover {
   color: #fff;
@@ -1205,6 +1206,7 @@ pre .javascript .function {
   line-height: inherit;
   border-bottom: 1px solid transparent;
   transition-property: border-color;
+  color: #9400d3 !important;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
@@ -1953,7 +1955,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2bb9e0;
+  background: #ff2a8f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3129,7 +3131,18 @@ pre .javascript .function {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 @media screen and (min-width: 1200px) {
+  .site-meta {
+    background: #fff5ee;
+  }
   #footer a {
     color: #eee;
+  }
+  #sidebar p,
+  #sidebar span,
+  #sidebar a {
+    color: #9400d3;
+  }
+  .footer-inner {
+    color: #9400d3;
   }
 }
